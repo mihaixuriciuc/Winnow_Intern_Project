@@ -1,0 +1,13 @@
+# Core Web Framework for the API
+Django>=4.2
+
+# (Optional) For testing endpoints via Python instead of Postman/curl
+requests>=2.31.0
+
+# ---------------------------------------------------------
+# NOTE: os, subprocess, json, random, and threading
+# are Python standard libraries and do not need to be listed.
+#
+# NOTE: opencv-python-headless and numpy were excluded to
+# keep the build fast and avoid the Memory Error (Exit 137).
+# ---------------------------------------------------------
