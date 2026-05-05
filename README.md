@@ -35,3 +35,30 @@ Then I created these  endpoints, in this order:
 - one endpoint that can get the video that is currently playing(api/current)
 - one endpoint that gets all the videos but in a random order, so the model doesnt get predictible(api/play-random)
 
+to clone the repository use this command:
+```
+git clone https://github.com/mihaixuriciuc/Winnow_Intern_Project
+```
+
+Then navigate to the folder:
+
+```
+cd Winnow_Intern_Project
+```
+
+Make sure that you have python installed,create a virtual env:
+```
+python3 -m venv .venv
+```
+Activate it using this for Mac or Linux:
+```source .venv/bin/python```
+or this for windows: 
+``` source .venv/bin/python```
+
+Then run the requirements.txt
+```
+pip install -r requirements.txt
+
+```
+
+Make sure that you have VLC installed, you need to copy the path to it and paste it in the playback/views.py
